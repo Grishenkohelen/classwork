@@ -1,0 +1,53 @@
+.*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 1000px;
+    width: 1500px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background: aqua;
+}
+.home{
+    height: 500px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.home_left{
+    height: 490px;
+    width: 740px;
+    background: blue;
+
+
+}
+.home_right{
+    height: 490px;
+    width: 740px;
+    background: blue;
+}
+.kabobs{
+    height: 240px;
+    width: 1500px;
+    background: blue;
+
+}
+.container_kabobs{
+    height: 240px;
+    width:1500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.kabobs_item{
+    height: 250px;
+    width: 490px;
+    background: blue;
+    margin-top: 10px;
+}
